@@ -36,24 +36,7 @@ public abstract class Person{
     return this.nachname;
   }
 
-  /*
-  public static boolean check_digit(String id){
-    boolean ergebnis=false;
-    for(int i=0; i<id.length();i++){                  
-      if(Character.isDigit(id.charAt(i))== true){  //karakterleri tek tek kontrol icin
-        ergebnis=true;
-      } 
-      else{
-        ergebnis=false;
-        i+=10;       // döngüden cikmasi icin
-      }
-    }
-    if(id.charAt(0)==0){    // calismiyor ???
-      ergebnis=false;
-    }
-    return ergebnis;
-  }     */
-  
+ 
   @Override
   public String toString() {
     return id + " " + name + " " + nachname;
