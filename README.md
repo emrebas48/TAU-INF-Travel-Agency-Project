@@ -13,18 +13,18 @@ git clone https://github.com/emrebas48/Travel-Agency-Project.git
 ## Usage
 Application that simulated daily run of the travel agency
 --- 
-- Add employees
-- list employees
+- Add employee
+- List employees
 - Delete employee
 - Add customer
-- list customers
+- List customers
 - Delete customer
 - Add travel package
 - List travel packages
 - List current travel packages
 - Delete travel package
 - Sell travel packages to customers
-- List travel package from customer
+- List travel package from customers
 - exit program 
 
 ## Contributing
